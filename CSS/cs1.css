@@ -1,0 +1,161 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*
+.bgimage
+{
+	background-image: url('../Images/img3.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+*/
+.menu
+{
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,0.5);
+}
+.leftmenu
+{
+	width: 40%;
+	height: 80px;
+	float: left;
+	/*background-color: red;*/
+}
+.img
+{
+	width: 22%;
+	height: 80px;
+	float: left;
+	/*background-color: green;*/
+}
+.img img
+{
+	height: 70px;
+	width: 60px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+}
+.h4
+{
+	width: 78%;
+	height: 80px;
+	float: right;
+	/*background-color: blue;*/
+}
+.h4 h4
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+	color: orange;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.rightmenu
+{
+	width: 60%;
+	height: 80px;
+	float: right;
+	/*background-color: yellow;*/
+
+}
+.rightmenu ul
+{
+	margin-left: 675px;
+}
+.rightmenu ul li
+{
+	font-family: sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 80px;
+	text-transform: uppercase;
+}
+#first a
+{
+	color: orange;
+}
+
+
+body
+{
+    background: url('../Images/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.registration
+{
+    width: 320;
+    height: 530;
+    background:white;
+    box-shadow: 0px 0px 8px 10px #333;
+    color: black;
+    top: 57%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:30px;
+}
+.registration h1
+{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.registration p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.registration input
+{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.registration select
+{
+    width: 100%;
+    height: 30;
+    border: 2px solid #000;
+    background: transparent;
+    margin-bottom: 10px;
+}
+.registration input[type="text"], input[type="password"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color:black;
+    font-size: 14px
+}
+.registration input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.registration input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
